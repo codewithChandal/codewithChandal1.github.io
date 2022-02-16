@@ -1,0 +1,109 @@
+*{margin: 0; padding: 0;box-sizing: border-box}
+body{background-color: whitesmoke;}
+header{background-color: lightgrey; height: 5rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;position: fixed; top: 30px; left: 0; right: 0; bottom: 0;z-index: +1;}
+.logo{width: 14.5%; height: 4.5rem; background-image: url(mainsh.png); background-size: 100%; background-repeat:no-repeat; cursor: pointer;}
+.btn-1{width:2.5%; height: 2.5rem;color: rgb(92, 92, 92); cursor: pointer; display: flex;justify-content: center; align-items: center; border-radius: 5px; display: none;}
+.new-btn-1{width:2.5%; height: 2.5rem;color:orangered; cursor: pointer; display: flex;justify-content: center; align-items: center; border-radius: 5px; display: none;}
+nav ul{display: flex; }
+nav ul li a{text-decoration: none; color: black; font-family: 'Short Stack', cursive;font-weight: bold; font-size: 18px;}
+nav ul li a:hover{color: orangered;}
+nav ul li{list-style: none;padding:  0 28px;}
+
+.banner{width: 100%; height: 100vh; background-color: aquamarine; background-image: url(pexels-pixabay-39317.jpg); background-size: cover;}
+.sub-banner{width: 100%; height: 100vh; background-color: rgba(0, 0, 0,0.30);}
+.text-1{width: 33%; height: 50%;position: absolute; top: 340px;left: 100px;}
+.sp-1{font-family: 'Ubuntu', sans-serif;font-size: 55px; color: whitesmoke;}
+.sp-2{font-family: 'Ubuntu', sans-serif;font-size: 55px; color: whitesmoke;}
+.sp-3{font-family: 'Righteous', cursive;font-size: 55px; color: orangered;}
+.sp-4{font-family: 'Ubuntu', sans-serif;font-size: 22px; color: whitesmoke; display: block;}
+.text-btn{width: 38%; height: 13%; background-color: orangered; border-radius: 5px; display: flex; justify-content: center; align-items: center; float: left; margin-top: 60px;font-family: 'Ubuntu', sans-serif;font-size: 17 px; font-weight: 600; color: whitesmoke;}
+.text-btn:hover{cursor: pointer; background-color: grey; color: black;}
+.text-btn-1{width: 23%; height: 13%; border: 2px solid orangered; border-radius: 5px; display: flex; justify-content: center; align-items: center; float: left; margin-top: 60px;font-family: 'Ubuntu', sans-serif;font-size: 17 px; font-weight: 600;margin-left: 20px; color: whitesmoke;}
+.text-btn-1:hover{background-color: orangered; cursor: pointer;}
+/* section */
+
+/* section-1 */
+.sec-1{width: 78%; height: 50vh;margin: auto;margin-top: 140px;}
+.sec-1-pho{width: 47.2%; height: 100%;background-image: url(about.jpg); background-size: 100%; background-repeat: no-repeat;float: left;}
+.sec-1-txt{width: 50%; height: 100%; float: left; margin-left: 35px;}
+.up-txt{width: 100%; height: 41%; margin-top: 20px;}
+#h1{font-family:'Righteous', cursive; font-size: 40px;}
+p{font-family: 'Ubuntu', sans-serif;font-size: 18px;word-spacing: 8px;}
+.dn-txt{width: 47%; height: 42%;float: left;margin-top: 23px;}
+.h2{font-family:'Ubuntu', sans-serif; font-size: 24px;}
+.dn-txt-1{width: 47%; height: 42%;float: left;margin-top: 23px;margin-left: 30px;}
+/* section-2 */
+.sec-2{width: 100%; height: 100vh; background-color: lavender;margin: auto;margin-top: 120px;}
+.box-1{width: 70%; height: 25%;margin: auto; display: flex; justify-content: center; align-items: center; flex-direction: column; flex-wrap: wrap;}
+.h3{font-family:'Righteous', cursive; font-size: 40px;}
+.fr-1{width: 25%; height: 58%; float: left;margin-left: 170px;margin-top: 30px; cursor: pointer;}
+.up-fr-1{width: 100%; height: 60%;background-image: url(img1.jpg); background-size: cover;}
+.dn-fr-1{width: 100%; height: 40%; background-color: whitesmoke;display: flex; flex-direction: column;}
+.h4{font-family:'Ubuntu', sans-serif; font-size: 24px;margin-left: 25px;margin-top: 30px;}
+.h4:hover{color: orangered;}
+.dn-fr-1 span{margin-left: 25px;margin-top: 15px;}
+.read{font-family:'Ubuntu', sans-serif; font-size: 16px;margin-left: 25px;margin-top: 30px; color: orangered;}
+
+.fr-2{width: 25%; height: 58%; float: left;margin-left: 50px;margin-top: 30px; cursor: pointer;}
+.up-fr-2{width: 100%; height: 60%;background-image: url(img2.jpg); background-size: cover;}
+.dn-fr-2{width: 100%; height: 40%; background-color: whitesmoke;display: flex; flex-direction: column;}
+.h4{font-family:'Ubuntu', sans-serif; font-size: 24px;margin-left: 25px;margin-top: 30px;}
+.dn-fr-2 span{margin-left: 25px;margin-top: 15px;}
+.read{font-family:'Ubuntu', sans-serif; font-size: 16px;margin-left: 25px;margin-top: 30px; color: orangered;}
+
+.fr-3{width: 25%; height: 58%;  float: left;margin-left: 50px;margin-top: 30px; cursor: pointer;}
+.up-fr-3{width: 100%; height: 60%; background-image: url(img3.jpg); background-size: cover;}
+.dn-fr-3{width: 100%; height: 40%; background-color: whitesmoke;display: flex; flex-direction: column;}
+.h4{font-family:'Ubuntu', sans-serif; font-size: 24px;margin-left: 25px;margin-top: 30px;}
+.dn-fr-3 span{margin-left: 25px;margin-top: 15px;}
+.read{font-family:'Ubuntu', sans-serif; font-size: 16px;margin-left: 25px;margin-top: 30px; color: orangered;}
+
+/* section-3 */
+.sec-3{width: 100%; height: 65vh;margin: auto;margin-top: 100px;margin-top: 50px; display: flex; align-items: center;}
+.dog-ph{width: 15%; height: 80%; margin-left: 240px; background-image: url(dog2.png); background-size: contain; background-repeat: no-repeat;}
+.dog-txt{width: 53%; height: 80%; margin-left: 80px;}
+.sq-1{width: 46%; height: 46%; margin: 1% 2%; float: left;}
+.bot{font-family:'Ubuntu', sans-serif; font-size: 24px;margin-top: 30px;}
+.sq-2{width: 46%; height: 46%; margin: 1% 2%; float: left;}
+.sq-3{width: 46%; height: 46%; margin: 1% 2%; float: left;}
+.sq-4{width: 46%; height: 46%; margin: 1% 2%; float: left;}
+
+/* section-4 */
+.sec-4{width: 100%; height: 140vh; background-color: lavender;margin: auto;margin-top: 100px;margin-top: 100px; }
+.gallery{width: 78%; height: 65%; margin: auto; cursor: pointer;}
+.up-gal{width: 100%; height: 35%;  }
+.img-1{width: 25%;height: 100%; background-image: url(g1.jpg); background-size: cover;float: left;}
+.img-2{width: 25%;height: 100%; background-image: url(g2.jpg); background-size: cover;float: left; }
+.img-3{width: 25%;height: 100%; background-image: url(g3.jpg); background-size: cover;float: left; }
+.img-4{width: 25%;height: 100%; background-image: url(g4.jpg); background-size: cover;float: left; }
+
+.dn-gal{width: 100%; height: 65%; }
+
+.dn-gal-1{width: 25%; height: 100%; background-color: aquamarine;float: left;}
+.img-5{width: 100%;height: 50%; background-image: url(g8.jpg); background-size: cover;float: left; }
+.img-6{width: 100%;height: 50%; background-image: url(g6.jpg); background-size: cover;float: left; }
+
+.dn-gal-2{width: 50%; height: 100%; background-image: url(g9.jpg);float: left; background-size: cover;}
+
+.dn-gal-3{width: 25%; height: 100%; background-color: green;float: left;}
+.img-7{width: 100%;height: 50%; background-image: url(g7.jpg); background-size: cover;float: left; }
+.img-8{width: 100%;height: 50%; background-image: url(g5.jpg); background-size: cover;float: left; }
+
+footer{width: 100%; height: 55vh; background-color: lightgrey; display: flex; justify-content: space-evenly; align-items: center;}
+.fot-1{width: 30%; height: 70%;}
+.h5{font-family:'Righteous', cursive; font-size: 40px;}
+.h5:hover{color: orangered; cursor: pointer;}
+.fot-2{width: 30%; height: 70%;}
+.pg-1{width: 100%; height: 18%;}
+.pg-1 span{font-family:'Righteous', cursive; font-size: 35px;}
+.pg-2{width: 50%; height: 82%; float: left;}
+.sf{font-family:'Ubuntu', sans-serif; font-size: 22px;margin-top: 10px;}
+.sf:hover{color: orangered; cursor: pointer;}
+.pg-3{width: 50%; height: 82%;float: left;}
+.lower{width: 100%; height: 8vh; background-color: grey; margin: auto;display: flex;align-items: center;flex-wrap:wrap; justify-content:space-around ; }
+.low-1{width: 40%; height: 50%;}
+.low-1 span{font-family:'Righteous', cursive; font-size: 22px; color: lavender;}
+.low-2{width: 30%; height: 70%;}
+.icon{width: 9%; height: 100%; border-radius: 50%;float: left;margin-left: 20px; display: flex; justify-content: center; align-items: center;}
+.icon:hover{background-color: lavender; color: orangered; cursor: pointer; }
+ 
